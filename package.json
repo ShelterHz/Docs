@@ -1,0 +1,27 @@
+{
+  "name": "Docs",
+  "version": "1.0.0",
+  "description": "我的博客。",
+  "main": "index.js",
+  "dependencies": {
+    "vuepress": "^1.8.2"
+  },
+  "devDependencies": {
+    "vuepress-theme-reco": "^1.6.6"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shelter3055/Docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shelter3055/Docs/issues"
+  },
+  "homepage": "https://github.com/shelter3055/Docs#readme"
+}
