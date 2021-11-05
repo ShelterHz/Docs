@@ -1,16 +1,25 @@
 module.exports = [
     {
-      title:'工具',
-      collapsable: true, //不折叠
+      title:'Vue',
+      collapsable: true, 
       children:[
-        '/frontend-advanced/tools/',
+        '/frontend-advanced/vue/',
       ]
     },
     {
-      title:'文章',
+      title:'JavaScript',
       collapsable: true,
       children:[
-        '/frontend-advanced/documentss/',
+        '/frontend-advanced/javascript/',
+      ]
+    },
+    {
+      title:'React',
+      collapsable: true,
+      children:[
+        '/frontend-advanced/react/',
+        '/frontend-advanced/react/FunctionCom',
+        '/frontend-advanced/react/Hooks',
       ]
     }
 ]

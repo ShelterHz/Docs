@@ -1,28 +1,48 @@
 module.exports = [
     {
-        text: '关于我', link: '/about/',
+        text: '首页',
+        link: '/'
     },
     {
-        text: '前端修炼', link: '/frontend-basic/',
+        text: '归档',
+        link: '/'
+    },
+    {
+        text: '前端进阶', 
+        link: '/frontend-addon/more',
+    },
+    // {
+    //     text: '存档', link: '/frontend-advanced/',
+	// 	items: [
+    //         {
+    //             text: 'Vue', link: '/frontend-advanced/vue/'
+    //         },
+    //         {
+    //             text: 'JavaScript', link: '/frontend-advanced/javascript/'
+    //         },
+    //         {
+    //             text: 'React', link: '/frontend-advanced/react/'
+    //         }
+    //     ]
+    // },
+    {
+        text: '其他的', link: '/the-other/',
         items: [
             {
-                    text: 'vue', link: '/frontend-basic/vue/'
+                    text: 'Node.js', link: '/the-other/node/'
             },
             {
-                    text: 'JavaScript', link: '/frontend-basic/JavaScript/'
-            }
+                    text: '算法', link: '/the-other/simple-algorithm/'
+            },
         ]
     },
     {
-        text: '前端进阶', link: '/frontend-advanced/',
-		items: [
-            {
-                text: '工具类', link: '/frontend-advanced/tools/'
-            },
-            {
-                text: '文章', link: '/frontend-advanced/documentss/'
-            }
-        ]
+        text: '关于生活', 
+        link: '/life/Life',
+    },
+    {
+        text: '关于我', 
+        link: '/about/',
     },
     {
         text: '工具箱',
