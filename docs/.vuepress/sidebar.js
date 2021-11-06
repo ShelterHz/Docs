@@ -1,38 +1,34 @@
 module.exports = {
-    // 其他的
-    '/the-other/node/': require('../the-other/node/sidebar'),
-    '/the-other/simple-algorithm/': require('../the-other/simple-algorithm/sidebar'),
     
     // 存档
-    '/frontend-advanced/': require('../frontend-advanced/sidebar'),
-    // '/frontend-advanced/': [
-    //     '/frontend-advanced/vue',
-    //     '/frontend-advanced/javascript',
-    //     {
-    //         title: 'react',
-    //         collapsable: 'true',
-    //         children: [
-    //             '/frontend-advanced/react/basic',
-    //             '/frontend-advanced/react/advanced',
-    //         ]
-    //     }
-    // ],
-
+    '/archives/': require('../archives/sidebar'),
     // 前端进阶
-    '/frontend-addon/': [
-        '/frontend-addon/Web',
-        '/frontend-addon/Vscode',
+     '/frontend-addon/': [
+        '/frontend-addon/more',
         {
-            title: 'JavaScript',
+            title: 'Vue',
             collapsable: 'true',
             children: [
-                '/frontend-addon/js/Date',
-                '/frontend-addon/js/Object',
+                '/frontend-addon/vue/vue',
+                '/frontend-addon/vue/code',
             ]
-        }
+        },
+        {
+            title: 'React',
+            collapsable: 'true',
+            children: [
+                '/frontend-addon/react/comp',
+                '/frontend-addon/react/hooks',
+            ]
+        },
+        {
+            title: 'Typescript',
+            collapsable: 'true',
+            children: [
+                '/frontend-addon/typescript/ts'
+            ]
+        },
     ],
-    // 前端基础
-    
     // 生活
     '/life/': [
         '/life/Life',
@@ -50,5 +46,8 @@ module.exports = {
                 '/life/diary/2021-11'
             ]
         }
-    ]
+    ],
+    // 其他的
+    // '/the-other/node/': require('../the-other/node/sidebar'),
+    // '/the-other/simple-algorithm/': require('../the-other/simple-algorithm/sidebar'),
 }

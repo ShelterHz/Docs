@@ -11,31 +11,37 @@ module.exports = [
         text: '前端进阶', 
         link: '/frontend-addon/more',
     },
-    // {
-    //     text: '存档', link: '/frontend-advanced/',
-	// 	items: [
-    //         {
-    //             text: 'Vue', link: '/frontend-advanced/vue/'
-    //         },
-    //         {
-    //             text: 'JavaScript', link: '/frontend-advanced/javascript/'
-    //         },
-    //         {
-    //             text: 'React', link: '/frontend-advanced/react/'
-    //         }
-    //     ]
-    // },
     {
-        text: '其他的', link: '/the-other/',
-        items: [
+        text: '存档', link: '/archives/',
+		items: [
             {
-                    text: 'Node.js', link: '/the-other/node/'
+                text: 'Vue', link: '/archives/vue/'
             },
             {
-                    text: '算法', link: '/the-other/simple-algorithm/'
+                text: 'JavaScript', link: '/archives/javascript/'
             },
+            {
+                text: 'React', link: '/archives/react/'
+            },
+            {
+                text: 'Node.js', link: '/archives/node/'
+            },
+            {
+                text: '算法', link: '/archives/simple-algorithm/'
+            }
         ]
     },
+    // {
+    //     text: '其他的', link: '/the-other/',
+    //     items: [
+    //         {
+    //                 text: 'Node.js', link: '/the-other/node/'
+    //         },
+    //         {
+    //                 text: '算法', link: '/the-other/simple-algorithm/'
+    //         },
+    //     ]
+    // },
     {
         text: '关于生活', 
         link: '/life/Life',
